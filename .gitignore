@@ -1,2 +1,4 @@
 /target
 generated.rs
+.extensions
+crates/extensions/Cargo.toml

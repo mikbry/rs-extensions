@@ -1,10 +1,10 @@
 [workspace]
-members = ["extensions/*"]
-exclude = ["extensions/src"]
+members = ["crates/*"]
+
 [package]
 name = "rs-extensions"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-extensions = { path = "extensions" }
+extensions = { path = "crates/extensions" }
