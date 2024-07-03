@@ -1,0 +1,8 @@
+[package]
+name = "extensions"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+extension-a = { path = "extension-a" }
+extension-b = { path = "extension-b" }
