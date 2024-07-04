@@ -36,6 +36,7 @@ dependencies = [
  "extension-b",
  "extension-c",
  "extension-d",
+ "toml",
 ]
 
 [[package]]
@@ -138,6 +139,7 @@ version = "0.8.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6f49eb2ab21d2f26bd6db7bf383edc527a7ebaee412d17af4d40fdccd442f335"
 dependencies = [
+ "indexmap",
  "serde",
  "serde_spanned",
  "toml_datetime",
